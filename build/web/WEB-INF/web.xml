@@ -4,9 +4,25 @@
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>com.melwyn.login.servlets.LoginServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.melwyn.login.servlets.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TeamsServlet</servlet-name>
+        <servlet-class>com.melwyn.login.servlets.TeamsServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TeamsServlet</servlet-name>
+        <url-pattern>/TeamsServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

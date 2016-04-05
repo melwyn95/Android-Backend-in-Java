@@ -5,6 +5,8 @@
         <group>
             <file>file:/C:/Users/Melwyn/Desktop/InternShipWorksapces/DDProject/AndroidLogin/web/index.html</file>
             <file>file:/C:/Users/Melwyn/Desktop/InternShipWorksapces/DDProject/AndroidLogin/src/java/com/melwyn/login/servlets/DbConnection.java</file>
+            <file>file:/C:/Users/Melwyn/Desktop/InternShipWorksapces/DDProject/AndroidLogin/src/java/com/melwyn/login/servlets/TeamsServlet.java</file>
+            <file>file:/C:/Users/Melwyn/Desktop/InternShipWorksapces/DDProject/AndroidLogin/src/java/com/melwyn/login/servlets/RegisterServlet.java</file>
             <file>file:/C:/Users/Melwyn/Desktop/InternShipWorksapces/DDProject/AndroidLogin/src/java/com/melwyn/login/servlets/LoginServlet.java</file>
         </group>
     </open-files>
