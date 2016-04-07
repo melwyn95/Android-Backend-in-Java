@@ -12,6 +12,14 @@
         <servlet-name>TeamsServlet</servlet-name>
         <servlet-class>com.melwyn.login.servlets.TeamsServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PlayersServlet</servlet-name>
+        <servlet-class>com.melwyn.login.servlets.PlayersServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DetailsServlet</servlet-name>
+        <servlet-class>com.melwyn.login.servlets.DetailsServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
@@ -23,6 +31,14 @@
     <servlet-mapping>
         <servlet-name>TeamsServlet</servlet-name>
         <url-pattern>/TeamsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PlayersServlet</servlet-name>
+        <url-pattern>/PlayersServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DetailsServlet</servlet-name>
+        <url-pattern>/DetailsServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
