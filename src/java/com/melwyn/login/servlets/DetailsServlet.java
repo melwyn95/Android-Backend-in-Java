@@ -40,8 +40,8 @@ public class DetailsServlet extends HttpServlet {
             while(rs.next()) {
                 json = new JSONObject();
                 
-                switch (params[0]) {
-                    case "1":
+                switch (params[0].charAt(0)) {
+                    case '1':
                         json.put("player_id", rs.getInt("player_id"));
                         json.put("player_runs", rs.getInt("player_runs"));
                         json.put("player_matches", rs.getInt("player_matches"));
@@ -51,7 +51,7 @@ public class DetailsServlet extends HttpServlet {
                         json.put("player_catches", rs.getInt("player_catches"));
                         json.put("player_stumping", rs.getInt("player_stumping"));
                         break;
-                    case "2":
+                    case '2':
                         json.put("player_id", rs.getInt("player_id"));
                         json.put("player_wickets", rs.getInt("player_wickets"));
                         json.put("player_overs", rs.getInt("player_overs"));

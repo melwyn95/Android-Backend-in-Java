@@ -29,7 +29,7 @@ public class TeamsServlet extends HttpServlet {
             i++;
         }
         //String sql = "select * from android_team where team_id = ?";
-        String sql = "select * from android_team";
+        String sql = "select * from android_team order by team_points desc";
         Connection con = DbConnection.getConnection();
         try {
             PreparedStatement ps = con.prepareStatement(sql);
